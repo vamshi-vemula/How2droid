@@ -1,10 +1,27 @@
-h1 {
+body {
+	background-color: #c6f4f5;
+}
+#header {
+	top: 0;
+	bottom: 0;
+}
 
-	color: red;
-
+#header h1 {
+	text-align: center;
+    color: red ;
+    font-size: 45px;
 }
 
 #header a{
 	color: blue;
-	font-size: 24;
+	font-size: 18px;
 }
+
+hr {
+
+	color: #990000;
+	height: 2.5px;
+	background-color: navy;
+}
+
+
