@@ -12,3 +12,23 @@ body {
 	color: blue;
 	font-size: 18px;
 }
+
+#welmsg {
+	color: navy;
+	font-size: 50px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#auth-box {
+	width: 150px;
+	height: 250px;
+}
+
+#auth-box img {
+	border-radius: 35px;
+}
+
+footer {
+	background-color: grey;
+}
