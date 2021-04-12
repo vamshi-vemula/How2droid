@@ -1,3 +1,7 @@
+* {
+	font-family: sans-serif,arial;
+}
+
 body {
 	background-color: #c6f4f5;
 }
@@ -21,7 +25,7 @@ body {
 }
 
 #auth-box {
-	width: 150px;
+	width: 175px;
 	height: 250px;
 }
 
