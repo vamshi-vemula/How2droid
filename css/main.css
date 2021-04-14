@@ -3,13 +3,15 @@
 }
 
 body {
-	background-color: #c6f4f5;
+/*	background-image: url("../images/bg.jpg"); */
+	background-color: white;
 }
 
 #header h1 {
 	text-align: center;
     color: red ;
     font-size: 45px;
+    font-weight: bolder;
 }
 
 #header a{
@@ -22,6 +24,7 @@ body {
 	font-size: 50px;
 	text-align: center;
 	font-family: sans-serif;
+	font-weight: bold;
 }
 
 #auth-box {
@@ -33,6 +36,9 @@ body {
 	border-radius: 35px;
 }
 
+#auth-box h2 {
+	text-decoration: underline;
+}
 footer {
 	background-color: grey;
 }
