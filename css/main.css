@@ -1,3 +1,4 @@
+
 * {
 	font-family: sans-serif,arial;
 }
@@ -7,16 +8,26 @@ body {
 	background-color: white;
 }
 
+#header {
+	background-color: #fafafa;
+	padding:10px;
+}
+
 #header h1 {
-	text-align: center;
-    color: red ;
-    font-size: 45px;
+    color: crimson ;
+    font-size: 32px;
     font-weight: bolder;
+    margin :auto 0;
 }
 
 #header a{
-	color: blue;
+	color: violet;
 	font-size: 18px;
+	text-decoration :none;
+}
+
+#header a:hover {
+	color:red;
 }
 
 #welmsg {
@@ -28,8 +39,12 @@ body {
 }
 
 #auth-box {
-	width: 175px;
+	width: 200px;
 	height: 250px;
+	margin:0 auto;
+	background-color: #fafafa;
+	padding:20px;
+	border-radius: 12px;
 }
 
 #auth-box img {
@@ -41,4 +56,5 @@ body {
 }
 footer {
 	background-color: grey;
+	padding:2px;
 }
