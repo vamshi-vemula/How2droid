@@ -49,11 +49,13 @@ body {
 
 #auth-box img {
 	border-radius: 35px;
+	margin-left: 15px;
 }
 
 #auth-box h2 {
 	text-decoration: underline;
-}
+	margin-left: 5px;
+
 footer {
 	background-color: grey;
 	padding:2px;
