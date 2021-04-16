@@ -13,6 +13,11 @@ body {
 	padding:10px;
 }
 
+#header img {
+	width: 150px;
+	height: 150px;
+}
+
 #header h1 {
     color: crimson ;
     font-size: 32px;
@@ -50,7 +55,8 @@ body {
 #auth-box img {
 	border-radius: 35px;
 	margin-left: 15px;
-}
+	width: 65px;
+	height: 65px;
 
 #auth-box h2 {
 	text-decoration: underline;
