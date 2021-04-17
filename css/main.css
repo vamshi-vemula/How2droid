@@ -11,14 +11,14 @@ body {
 }
 
 #header {
-	background-color: #8803fc;
+	background-color:#8A2BE2;
 	padding:10px;
 }
 
 #header img {
 	width: 95px;
 	height: 95px;
-	display: inline;
+	display: inline-block;
 }
 
 #header h1 {
@@ -29,7 +29,7 @@ body {
 }
 
 #header li {
-	display: inline;
+	display: inline-block;
 	margin: 10px;
 	font-size: 22px;
 }
@@ -83,6 +83,6 @@ footer {
 }
 
 footer a {
-	color: #8803fc;
+	color: #8A2BE2;
 	text-decoration: none;
 }
