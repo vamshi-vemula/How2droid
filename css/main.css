@@ -3,6 +3,8 @@
 	font-family: sans-serif,arial;
 }
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 body {
 /*	background-image: url("../images/bg.jpg"); */
 	background-color: #fafafa;
@@ -11,7 +13,7 @@ body {
 }
 
 #header {
-	background-color:#8A2BE2;
+	background-color:white;
 	padding:10px;
 }
 
@@ -32,6 +34,11 @@ body {
 	display: inline-block;
 	margin: 10px;
 	font-size: 22px;
+}
+
+#header nav {
+	margin-left: 45px;
+	display: inline-block;
 }
 
 #header a{
