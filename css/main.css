@@ -12,21 +12,29 @@ body {
 /*	background-image: url("../images/bg.jpg"); */
 	margin:0px;
 	padding:0px;
-	background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	background-color: white;
+}
 
+#upper-part {
+
+	/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+*/
+}
+
+#bottom-part {
+	height: 450px;
 }
 
 nav{
   background: #000000;
-  height: 80px;
+  height: 60px;
   width: 100%;
 }
 
 label.logo{
   color: white;
   font-size: 35px;
-  line-height: 80px;
+  line-height: 60px;
   padding: 0 100px;
   font-weight: bold;
 }
@@ -38,7 +46,7 @@ nav ul{
 
 nav ul li{
   display: inline-block;
-  line-height: 80px;
+  line-height: 35px;
   margin: 0 5px;
 }
 
@@ -52,15 +60,15 @@ nav ul li a{
 }
 
 a.active,a:hover{
-  background: #1b9bff;
+  background: #9838ff;
   transition: .5s;
 }
 
 .checkbtn{
   font-size: 30px;
-  color: white;
+  color: #9838ff;
   float: right;
-  line-height: 80px;
+  line-height: 60px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
@@ -85,25 +93,26 @@ a.active,a:hover{
   }
   ul{
     position: fixed;
-    width: 100%;
+    width: 92%;
     height: 100vh;
     background: #2c3e50;
-    top: 80px;
+    top: 44px;
     left: -100%;
     text-align: center;
     transition: all .5s;
   }
   nav ul li{
+  	padding-right: 14px;
     display: block;
     margin: 50px 0;
-    line-height: 30px;
+    line-height: 25px;
   }
   nav ul li a{
     font-size: 20px;
   }
   a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: #9838ff;
   }
   #check:checked ~ ul{
     left: 0;
@@ -116,6 +125,7 @@ a.active,a:hover{
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bold;
+	padding-bottom: 20px;
 }
 
 #auth-box {
