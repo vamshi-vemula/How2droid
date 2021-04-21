@@ -16,13 +16,13 @@ body {
 }
 
 #upper-part {
-
+    height: 400px;
 	/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 */
 }
 
 #bottom-part {
-	height: 450px;
+	
 }
 
 nav{
@@ -120,7 +120,7 @@ a.active,a:hover{
 }
 
 #welmsg {
-	color: navy;
+	color: #161697;
 	font-size: 50px;
 	text-align: center;
 	font-family: sans-serif;
