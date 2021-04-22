@@ -16,13 +16,13 @@ body {
 }
 
 #upper-part {
-    height: 400px;
-	/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-*/
+	  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #bottom-part {
-	
+    padding: 20px;
 }
 
 nav{
@@ -88,6 +88,7 @@ a.active,a:hover{
   }
 }
 @media (max-width: 858px){
+  
   .checkbtn{
     display: block;
   }
@@ -151,6 +152,14 @@ a.active,a:hover{
 
 #auth-box h2 {
 	color: #000000;
+}
+
+#auth-box p {
+  padding: 5px;
+}
+
+nav {
+  margin-bottom: 0px;
 }
 
 footer {
