@@ -131,19 +131,19 @@ a.active,a:hover{
 
 #auth-box {
 	width: 200px;
-	height: 250px;
+	height: 300px;
 	margin:0 auto;
 	background-color: white;
 	padding:20px;
 	border-radius: 12px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 #00000035;
 	transition: 0.3s;
 	background-color: #A9C9FF;
     background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 
 }
 
-#auth-box img {
+#auth-box #about-pic {
 	border-radius: 35px;
 	margin-left: 15px;
 	width: 65px;
@@ -172,4 +172,23 @@ footer {
 footer a {
 	color: #9966ff;
 	text-decoration: none;
+}
+
+#social-media-icons {
+  padding-top: 15px;
+  margin:0px auto;
+}
+
+.social-media-icons {
+  margin-right: 13px;
+  margin-left: 13px;
+}
+.social-media-icons:hover{
+  background-color: #00000000;
+ }
+
+
+.social-media-icons img {
+  width:34px;
+  height:34px;
 }
