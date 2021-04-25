@@ -59,7 +59,7 @@ nav ul li a{
   text-decoration: none;
 }
 
-a.active,a:hover{
+nav a.active,nav a:hover{
   background: #9966ff;
   transition: .5s;
 }
@@ -81,7 +81,7 @@ a.active,a:hover{
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 10px;
   }
   nav ul li a{
     font-size: 16px;
