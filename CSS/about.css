@@ -50,25 +50,29 @@ nav .active,nav li a:hover {
     }
     
 @media (max-width: 952px){
-      nav {
-        height: 90px;
-      }
-      nav .logo {
-        display: block;
-        text-align: center;
-      }
-      nav ul {
-        margin-top: 35px;
-        padding: 0px;
-      }
-      nav ul li {
-        padding-right:12px;
-        font-size: 18px;
-    
-      }
-      nav li a {
-        padding:6px 4px;
-      }
+  nav {
+    height: 90px;
+    text-align: center;
+  }
+  nav .logo {
+    display: block;
+    text-align: center;
+  }
+  nav ul {
+    margin-top: 35px;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: none;
+  }
+  nav ul li {
+    text-align:center;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  nav li a {
+    padding:6px 4px;
+  }
+
     
 }
     
