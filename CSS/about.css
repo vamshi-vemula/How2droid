@@ -58,26 +58,24 @@ nav .active,nav li a:hover {
   nav .logo {
     display: block;
     text-align: center;
+    margin-bottom: 30px;
   }
   nav ul {
-    margin: 0px;
-    margin-top: 35px;
     padding: 0px;
     padding-left: 0px;
     margin-left: 0px;
     float: none;
+    display: inline;
   }
   nav ul li {
     margin: 0px;
     padding: 0px;
-    text-align:center;
     padding-right: 10px;
     font-size: 16px;
+    display: inline;
   }
   nav li a {
     padding:6px 4px;
-  }
-
-    
+  }   
 }
     
