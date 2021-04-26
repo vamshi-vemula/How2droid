@@ -234,6 +234,7 @@ footer a {
   }
   #info {
     width: 95%;
+    text-align: center;
   }
   #bottom-part p {
     display: block;
@@ -241,7 +242,7 @@ footer a {
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 95%;
+    width: 88%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -250,7 +251,7 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 95% ;
+    width: 88% ;
   }
 }
 
@@ -262,10 +263,14 @@ footer a {
   #bottom-part p {
     display: block;
   }
+  #info {
+    width: 95%;
+    text-align: center;
+  }
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 95%;
+    width: 88%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -274,6 +279,6 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 95%;
+    width: 88%;
   }
 }
