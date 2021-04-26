@@ -224,11 +224,13 @@ footer a {
   border-radius: 20px;
   box-shadow: 8px #00000035;
   padding: 20px;
+  width: 90%;
 }
 
 @media (max-width: 952px) {
   #bottom-part {
     text-align: center;
+    padding-top: 1px;
   }
   #bottom-part p {
     display: block;
@@ -236,7 +238,7 @@ footer a {
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 350px;
+    width: 100%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -245,13 +247,14 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 350px ;
+    width: 100% ;
   }
 }
 
 @media (max-width: 858px) {
   #bottom-part {
     text-align: center;
+    padding-top: 1px;
   }
   #bottom-part p {
     display: block;
@@ -259,7 +262,7 @@ footer a {
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 350px;
+    width: 100%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -268,6 +271,6 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 350px ;
+    width: 100%;
   }
 }
