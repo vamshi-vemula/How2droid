@@ -224,7 +224,7 @@ footer a {
   border-radius: 20px;
   box-shadow: 8px #00000035;
   padding: 20px;
-  width: 90%;
+  
 }
 
 @media (max-width: 952px) {
@@ -232,13 +232,16 @@ footer a {
     text-align: center;
     padding-top: 1px;
   }
+  #info {
+    width: 95%;
+  }
   #bottom-part p {
     display: block;
   }
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 100%;
+    width: 95%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -247,7 +250,7 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 100% ;
+    width: 95% ;
   }
 }
 
@@ -262,7 +265,7 @@ footer a {
   #bottom-part #heading {
     margin: 0px;
     font-size: 22px;
-    width: 100%;
+    width: 95%;
   } 
   #bottom-part h3 {
     margin-left: 0px;
@@ -271,6 +274,6 @@ footer a {
     margin: 0px;
     margin-top: 10px;
     font-size: 18px;
-    width: 100%;
+    width: 95%;
   }
 }
