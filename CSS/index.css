@@ -11,9 +11,10 @@
 body {
 /*	background-image: url("../images/bg.jpg"); */
 	margin:0px;
-	padding:0px;
-	background-color: white;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	padding:0px; 
+  background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
 }
 
 #upper-part iframe {
@@ -86,8 +87,8 @@ nav .active,nav li a:hover {
     padding:6px 4px;
   }
   #upper-part iframe {
-    width: 350px;
-    height: 210px;
+    width: 320px;
+    height: 220px;
   }
 }
 
@@ -116,17 +117,17 @@ nav .active,nav li a:hover {
     padding:6px 4px;
   }
   #upper-part iframe {
-    width: 350px;
-    height: 210px;
+    width: 320px;
+    height: 220px;
   }
 }
 
 #upper-part {
-    padding-top: 0px;
-    margin-top: 0px;
-	  text-align: center;
-    padding-bottom: 20px;
-}
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+  padding-bottom: 20px;
+ }
 
 #bottom-part {
     padding: 20px;
@@ -134,10 +135,9 @@ nav .active,nav li a:hover {
 }
 
 #welmsg {
-	color: #161697;
+	color: white;
 	font-size: 50px;
 	text-align: center;
-	font-family: sans-serif;
 	font-weight: bold;
 	padding-bottom: 20px;
 }
@@ -152,7 +152,7 @@ nav .active,nav li a:hover {
 	box-shadow: 0 4px 8px 0 #00000035;
 	transition: 0.3s;
 	background-color: #A9C9FF;
-    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
 
 }
 
@@ -171,6 +171,22 @@ nav .active,nav li a:hover {
   padding: 5px;
 }
 
+#social-media-icons {
+  padding-top: 15px;
+  margin:0px auto;
+}
+
+.social-media-icons {
+  margin-right: 13px;
+  margin-left: 13px;
+}
+
+.social-media-icons img {
+  width:34px;
+  height:34px;
+}
+
+
 footer {
 	background-color: #000000;
 	color: white;
@@ -181,22 +197,4 @@ footer {
 footer a {
 	color: #9966ff;
 	text-decoration: none;
-}
-
-#social-media-icons {
-  padding-top: 15px;
-  margin:0px auto;
-}
-
-.social-media-icons {
-  margin-right: 13px;
-  margin-left: 13px;
-}
-.social-media-icons:hover{
-  background-color: #00000000;
- }
-
-.social-media-icons img {
-  width:34px;
-  height:34px;
 }
