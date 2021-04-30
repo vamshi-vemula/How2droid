@@ -66,7 +66,7 @@ footer a {
   height: 200px;
 }
 
-#heading {
+#upper-part #heading {
   text-align: center;
   font-size: 55px;
   color: white;
@@ -96,72 +96,60 @@ footer a {
   font-size: 22px;
 }
 
+#info {
+  background-color: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px;
+  box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.13);
+  margin-bottom: 0px;
+}
+
 #about-section {
   background-color: #ffffff;
   padding: 20px;
+  text-align: center;
 }
 
 #about-section h3 {
   color: #9966ff;
   font-size: 22px;
-  text-align: center;
 }
 
-#auth-box {
-	width: 200px;
-	height: 300px;
-	margin:0 auto;
-	background-color: white;
-	padding:20px;
-	border-radius: 12px;
-	box-shadow: 0 4px 8px 0 #00000035;
-	transition: 0.3s;
-	background-color: #A9C9FF;
-  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
-  text-align: center;
-}
-
-#auth-box #about-pic {
+#about-pic {
   margin-top: 10px;
-	border-radius: 35px;
-	width: 65px;
-	height: 65px;
-  margin-right: 5px;
+	border-radius: 48px;
+	width: 95px;
+	height: 95px;
 }
 
-#auth-box h2 {
+#about-section h2 {
 	color: #000000;
   font-size: 19px;
-  text-align: center;
 }
 
-#auth-box p {
-  padding: 5px;
+#about-section p {
+  padding: 4px 40px;
 }
 
-#social-media-icons {
-  padding-top: 15px;
-  margin:0px auto;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.hacker-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
 
-.social-media-icons {
-  margin-right: 13px;
-  margin-left: 13px;
-}
-.social-media-icons:hover{
-  background-color: #00000000;
- }
-
-.social-media-icons img {
-  width:34px;
-  height:34px;
-}
-
-#info {
-  background-color: #FFFFFF;
-  border-radius: 20px 20px 0px 0px;
-  padding: 20px;
-  
+#skill-des-hacker {
+ text-align: left;
 }
 
 @media (max-width: 952px) {
@@ -188,24 +176,19 @@ footer a {
   nav li a {
     padding:6px 4px;
   }
-
-  #bottom-part {
-    
+  #upper-part #heading {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding-top: 0px;
   }
-  #info {
-    
-  }
-  #bottom-part p {
-   
-  }
-  #bottom-part #heading {
-    
-  } 
-  #bottom-part h3 {
-   
+  #upper-part {
+    height: 100px;
   }
   #bottom-part #content {
     font-size: 18px;
-    
+  }
+  .skill-row {
+    width: 80%;
   }
 }
