@@ -2,6 +2,11 @@
 	font-family: sans-serif,arial;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 0 ;
+}
+
 body {
   margin:0px;
   padding:0px;

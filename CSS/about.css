@@ -2,10 +2,15 @@
 	font-family: 'Prompt',sans-serif,arial;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 0 ;
+}
+
 body {
     margin:0px;
     padding:0px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)) , url("../Images/textture-bg.jpg");
+    background: linear-gradient(rgba(50,55,55,0.5), rgba(30,25,25,0.5)) , url("../Images/textture-bg.jpg");
     background-repeat: no-repeat;
     background-size:100% 100%; 
   }
@@ -88,21 +93,20 @@ footer a {
 
 #bottom-part #heading {
   font-weight: bold;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 25px;
 } 
 
 #bottom-part #content {
   font-size: 18px;
+  color: #FFFFFF;
 }
 
 #info {
-  background-color: #FFFFFF;
   border-radius: 20px 20px 0px 0px;
   padding: 20px;
-  box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.13);
   margin-bottom: 0px;
-}
+  }
 
 #about-section {
   background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg-2.jpg");
