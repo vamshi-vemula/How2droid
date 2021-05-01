@@ -1,13 +1,13 @@
 * {
-	font-family: sans-serif,arial;
+	font-family: 'Prompt',sans-serif,arial;
 }
 
 body {
     margin:0px;
     padding:0px;
-    background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg.jpg");
-  background-repeat: no-repeat;
-  background-size:100% 100%; 
+    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)) , url("../Images/textture-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
   }
   
 nav {
@@ -89,11 +89,11 @@ footer a {
 #bottom-part #heading {
   font-weight: bold;
   color: #000000;
-  font-size: 30px;
+  font-size: 25px;
 } 
 
 #bottom-part #content {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #info {
@@ -105,13 +105,13 @@ footer a {
 }
 
 #about-section {
-  background-color: #ffffff;
+  background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg-2.jpg");
   padding: 20px;
   text-align: center;
 }
 
-#about-section h3 {
-  color: #9966ff;
+#about-section #intro {
+  color: white;
   font-size: 22px;
 }
 
@@ -127,13 +127,20 @@ footer a {
   font-size: 19px;
 }
 
-#about-section p {
-  padding: 4px 40px;
+#about-wrapper {
+  background-color: #FFFFFF;
+  padding: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.13);
 }
+
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto;
   text-align: left;
   line-height: 2;
 }
@@ -148,19 +155,26 @@ footer a {
   margin-left: 30px;
 }
 
-#skill-des-hacker {
- text-align: left;
+.skills #skills-header {
+  margin-top: 50px;
+  color: #9966ff;
+  font-size: 35px;
+}
+
+.skills .skill-row .skill-name {
+  color: #000000;
 }
 
 @media (max-width: 952px) {
   nav {
-    height: 90px;
+    height: 100px;
     text-align: center;
     padding: 10px 0px;
   }
   nav .logo {
     display: block;
     margin-bottom: 30px;
+    padding-top: 8px;
   }
   nav ul {
     padding: 0px;
@@ -178,17 +192,23 @@ footer a {
   }
   #upper-part #heading {
     text-align: center;
-    font-size: 55px;
+    font-size: 50px;
     color: white;
     padding-top: 0px;
   }
   #upper-part {
     height: 100px;
   }
+  #bottom-part #heading {
+    font-size: 21px;
+  }
   #bottom-part #content {
-    font-size: 18px;
+    font-size: 17px;
   }
   .skill-row {
     width: 80%;
+  }
+  #about-wrapper {
+    width: 90%;
   }
 }

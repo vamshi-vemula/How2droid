@@ -64,43 +64,14 @@ nav .active,nav li a:hover {
 
 @media (max-width: 952px){
   nav {
-    height: 90px;
+    height: 100px;
     text-align: center;
     padding: 10px 0px;
   }
   nav .logo {
     display: block;
     margin-bottom: 30px;
-  }
-  nav ul {
-    padding: 0px;
-    float: none;
-    display: inline;
-  }
-  nav ul li {
-    margin: 0px;
-    padding: 0px;
-    font-size: 16px;
-    display: inline;
-  }
-  nav li a {
-    padding:6px 4px;
-  }
-  #upper-part iframe {
-    width: 320px;
-    height: 220px;
-  }
-}
-
-@media (max-width: 858px) {
-  nav {
-    height: 90px;
-    text-align: center;
-    padding: 10px 0px;
-  }
-  nav .logo {
-    display: block;
-    margin-bottom: 30px;
+    padding-top: 8px;
   }
   nav ul {
     padding: 0px;
