@@ -1,16 +1,12 @@
 * {
 	font-family: sans-serif,arial;
+  padding: 0px;
+  margin: 0px;
 }
 
 @viewport {
-  width: device-width ;
-  zoom: 0 ;
-}
-
-body {
-  margin:0px;
-  padding:0px;
-  background-color: white;
+  width: device-width;
+  zoom: 0;
 }
 
 nav {
@@ -31,7 +27,6 @@ nav .logo {
 nav ul {
   display: inline-block;
   float: right;
-  margin: 0px;
   margin-top: 5px;
 }
 
@@ -53,6 +48,11 @@ nav .active,nav li a:hover {
   border-radius: 3.5px;
 }
 
+body {
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
 @media (max-width: 952px){
   nav {
     height: 100px;
@@ -63,29 +63,28 @@ nav .active,nav li a:hover {
     display: block;
     margin-bottom: 30px;
     padding-top: 8px;
+    margin-left: 0px;
   }
   nav ul {
-    padding: 0px;
-    float: none;
+    float:none;
     display: inline;
+    white-space: nowrap;
   }
   nav ul li {
-    margin: 0px;
-    padding: 0px;
     font-size: 16px;
     display: inline;
   }
   nav li a {
     padding:6px 4px;
   }
-
 }
 
 footer {
 	background-color: #000000;
 	color: white;
-	margin:0px auto;
-	padding:4px;
+	padding: 20px;
+  line-height: 27px;
+  text-align: center;
 }
 
 footer a {

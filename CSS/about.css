@@ -1,5 +1,7 @@
 * {
 	font-family: sans-serif,arial;
+  padding: 0px;
+  margin: 0px;
 }
 
 @viewport {
@@ -8,12 +10,10 @@
 }
 
 body {
-    margin:0px;
-    padding:0px;
     background: linear-gradient(rgba(50,55,55,0.8), rgba(50, 50, 50, 0.8)) , url("../Images/textture-bg.jpg");
     background-repeat: no-repeat;
     background-size:100% 100%; 
-  }
+}
   
 nav {
   background-color: #000000;
@@ -33,7 +33,6 @@ nav .logo {
 nav ul {
   display: inline-block;
   float: right;
-  margin: 0px;
   margin-top: 5px;
 }
 
@@ -55,40 +54,30 @@ nav .active,nav li a:hover {
   border-radius: 3.5px;
 }
 
-footer {
-	background-color: #000000;
-	color: white;
-	margin:0px auto;
-	padding:4px;
-}
-
-footer a {
-	color: #9966ff;
-	text-decoration: none;
-}
-
 #upper-part {
-  height: 200px;
+  padding: 20px;
 }
 
 #upper-part #heading {
   text-align: center;
   font-size: 55px;
   color: white;
-  padding-top: 81px;
+  margin-top: 35px;
 }
 
 #bottom-part {
-  padding: 10px 20px 0px 20px;
+  padding: 20px;
   text-align: center;
+}
+
+#bottom-part #info {
+  width: 90%;
+  margin: 0px auto;
 }
 
 #bottom-part h3 {
   color:#9966ff;
-}
-
-#bottom-part p {
-  padding-top: 0px;
+  padding-bottom: 15px;
 }
 
 #bottom-part #heading {
@@ -98,15 +87,11 @@ footer a {
 } 
 
 #bottom-part #content {
+  margin-top: 20px;
   font-size: 18px;
   color: #FFFFFF;
+  line-height: 23px;
 }
-
-#info {
-  border-radius: 20px 20px 0px 0px;
-  padding: 20px;
-  margin-bottom: 0px;
-  }
 
 #about-section {
   background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg-2.jpg");
@@ -117,6 +102,16 @@ footer a {
 #about-section #intro {
   color: white;
   font-size: 22px;
+  padding-bottom: 20px;
+}
+
+#about-wrapper {
+  background-color: #FFFFFF;
+  padding: 20px;
+  width: 70%;
+  margin: 0px auto;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.13);
 }
 
 #about-pic {
@@ -129,18 +124,13 @@ footer a {
 #about-section h2 {
 	color: #000000;
   font-size: 19px;
+  margin-top: 10px;
 }
 
-#about-wrapper {
-  background-color: #FFFFFF;
-  padding: 20px;
-  padding-bottom: 20px;
-  width: 70%;
-  margin: 0px auto;
-  border-radius: 20px;
-  box-shadow: 3px 3px 4px 4px rgba(0,0,0,0.13);
+#about-section p {
+  margin-top: 15px;
+  line-height: 24px;
 }
-
 
 .skill-row {
   width: 50%;
@@ -148,11 +138,13 @@ footer a {
   text-align: left;
   line-height: 2;
 }
+
 .skill-img {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
+
 .hacker-img {
   width: 25%;
   float: right;
@@ -169,7 +161,6 @@ footer a {
   color: #000000;
 }
 
-
 @media (max-width: 952px) {
   nav {
     height: 100px;
@@ -180,15 +171,14 @@ footer a {
     display: block;
     margin-bottom: 30px;
     padding-top: 8px;
+    margin-left: 0px;
   }
   nav ul {
-    padding: 0px;
     float: none;
     display: inline;
+    white-space: nowrap;
   }
   nav ul li {
-    margin: 0px;
-    padding: 0px;
     font-size: 16px;
     display: inline;
   }
@@ -196,13 +186,8 @@ footer a {
     padding:6px 4px;
   }
   #upper-part #heading {
-    text-align: center;
-    font-size: 50px;
+    font-size: 47px;
     color: white;
-    padding-top: 0px;
-  }
-  #upper-part {
-    height: 100px;
   }
   #bottom-part #heading {
     font-size: 21px;
@@ -216,4 +201,17 @@ footer a {
   #about-wrapper {
     width: 90%;
   }
+}
+
+footer {
+	background-color: #000000;
+	color: white;
+	padding: 20px;
+  text-align: center;
+  line-height: 27px;
+}
+
+footer a {
+	color: #9966ff;
+	text-decoration: none;
 }

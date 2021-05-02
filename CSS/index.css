@@ -1,24 +1,12 @@
-
 * {
 	font-family: sans-serif,arial;
+  padding: 0px;
+  margin: 0px;
 }
 
 @viewport {
-  width: device-width ;
-  zoom: 0 ;
-}
-
-body {
-	margin:0px;
-	padding:0px; 
-  background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg.jpg");
-  background-repeat: no-repeat;
-  background-size:100% 100%;
-}
-
-#upper-part iframe {
-  width: 700px;
-  height: 350px;
+  width: device-width;
+  zoom: 0;
 }
 
 nav {
@@ -39,7 +27,6 @@ nav .logo {
 nav ul {
   display: inline-block;
   float: right;
-  margin: 0px;
   margin-top: 5px;
 }
 
@@ -61,6 +48,31 @@ nav .active,nav li a:hover {
   border-radius: 3.5px;
 }
 
+body {
+  background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+#upper-part {
+  padding-top: 45px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#welmsg {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#upper-part iframe {
+  margin-top: 30px;
+  width: 700px;
+  height: 350px;
+}
+
 @media (max-width: 952px){
   nav {
     height: 100px;
@@ -71,15 +83,14 @@ nav .active,nav li a:hover {
     display: block;
     margin-bottom: 30px;
     padding-top: 8px;
+    margin-left: 0px;
   }
   nav ul {
-    padding: 0px;
-    float: none;
+    float:none;
     display: inline;
+    white-space: nowrap;
   }
   nav ul li {
-    margin: 0px;
-    padding: 0px;
     font-size: 16px;
     display: inline;
   }
@@ -87,29 +98,14 @@ nav .active,nav li a:hover {
     padding:6px 4px;
   }
   #upper-part iframe {
-    width: 320px;
+    width: 22em;
     height: 220px;
   }
 }
 
-#upper-part {
-  padding-top: 0px;
-  margin-top: 0px;
-  text-align: center;
-  padding-bottom: 20px;
- }
-
 #bottom-part {
     padding: 20px;
     background-color: white;
-}
-
-#welmsg {
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	font-weight: bold;
-	padding-bottom: 20px;
 }
 
 #auth-box {
@@ -123,7 +119,6 @@ nav .active,nav li a:hover {
 	transition: 0.3s;
 	background-color: #A9C9FF;
   background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
-
 }
 
 #auth-box #about-pic {
@@ -131,14 +126,17 @@ nav .active,nav li a:hover {
 	margin-left: 15px;
 	width: 65px;
 	height: 65px;
+  margin: 20px;
 }
 
 #auth-box h2 {
 	color: #000000;
+  margin-top: 10px;
 }
 
 #auth-box p {
   padding: 5px;
+  line-height: 24px;
 }
 
 #social-media-icons {
@@ -147,8 +145,7 @@ nav .active,nav li a:hover {
 }
 
 .social-media-icons {
-  margin-right: 13px;
-  margin-left: 13px;
+ margin: 0px 13px;
 }
 
 .social-media-icons img {
@@ -156,12 +153,12 @@ nav .active,nav li a:hover {
   height:34px;
 }
 
-
 footer {
 	background-color: #000000;
 	color: white;
-	margin:0px auto;
-	padding:4px;
+	padding: 20px;
+  line-height: 27px;
+  text-align: center;
 }
 
 footer a {
