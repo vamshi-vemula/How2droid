@@ -69,7 +69,7 @@ body {
 
 #upper-part iframe {
   margin-top: 30px;
-  width: 700px;
+  width: 47%;
   height: 350px;
 }
 
@@ -98,7 +98,7 @@ body {
     padding:6px 4px;
   }
   #upper-part iframe {
-    width: 22em;
+    width: 75%;
     height: 220px;
   }
 }
@@ -156,7 +156,7 @@ body {
 footer {
 	background-color: #000000;
 	color: white;
-	padding: 20px;
+	padding: 20px 8px;
   line-height: 27px;
   text-align: center;
 }
