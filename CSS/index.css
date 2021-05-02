@@ -9,7 +9,6 @@
 }
 
 body {
-/*	background-image: url("../images/bg.jpg"); */
 	margin:0px;
 	padding:0px; 
   background: linear-gradient(rgba(255,255,255,0.20), rgba(255,255,255,0.20)) , url("../Images/textture-bg.jpg");

@@ -10,7 +10,7 @@
 body {
     margin:0px;
     padding:0px;
-    background: linear-gradient(rgba(50,55,55,0.5), rgba(30,25,25,0.5)) , url("../Images/textture-bg.jpg");
+    background: linear-gradient(rgba(50,55,55,0.8), rgba(50, 50, 50, 0.8)) , url("../Images/textture-bg.jpg");
     background-repeat: no-repeat;
     background-size:100% 100%; 
   }
@@ -168,6 +168,7 @@ footer a {
 .skills .skill-row .skill-name {
   color: #000000;
 }
+
 
 @media (max-width: 952px) {
   nav {
