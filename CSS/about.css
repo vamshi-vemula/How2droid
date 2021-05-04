@@ -4,11 +4,6 @@
   margin: 0px;
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 0 ;
-}
-
 body {
     background: linear-gradient(rgba(50,55,55,0.8), rgba(50, 50, 50, 0.8)) , url("../Images/textture-bg.jpg");
     background-repeat: no-repeat;
@@ -161,7 +156,7 @@ nav .active,nav li a:hover {
   color: #000000;
 }
 
-@media (max-width: 952px) {
+@media screen and (max-width: 952px) {
   nav {
     height: 100px;
     text-align: center;
