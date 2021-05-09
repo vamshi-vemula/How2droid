@@ -221,7 +221,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   nav ul li {
     font-size: 16px;
     margin-right: 0px;
@@ -229,14 +229,5 @@ footer a {
   }
   nav li a {
     padding: 4px 8px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  nav ul li {
-    font-size: 14px;
-  }
-  nav li a {
-    padding:4px 6px;
   }
 }
